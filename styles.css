@@ -939,7 +939,7 @@ i {
 #exit:hover {
   background-color: var(--secondary-colour);
   border: 1px solid var(--thirdly-colour);
-  margin: 0.68%;
+  margin: calc(1% - 1px);
 }
 
 .exit-bar {
@@ -963,6 +963,7 @@ i {
 }
 
 .icons-group {
+  text-align: center;
   width: 50%;
 }
 
@@ -1088,10 +1089,10 @@ i {
   align-items: center;
   color: white;
   display: flex;
-  height: 70%;
+  height: 75%;
   justify-content: center;
   margin-left: 2%;
-  width: 6%;
+  width: 5%;
 }
 
 #go-back:hover {
